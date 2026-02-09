@@ -110,6 +110,12 @@ interface [ExistingModel] {
 - [Use existing color palette]
 - [Follow current patterns for X]
 
+### Security Consideration
+- [Does this feature require login?]
+- [Role/permission requirements (admin, user, etc.)]
+- [PII or sensitive data being handled]
+- [External API keys or credentials needed]
+
 ## Backward Compatibility
 
 ### Data Migration
