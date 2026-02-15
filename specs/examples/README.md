@@ -1,4 +1,4 @@
-# Examples
+# Spec Examples
 
 Real specs from actual projects. Use these as reference for structure and level of detail.
 
