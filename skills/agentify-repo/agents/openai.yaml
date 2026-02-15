@@ -1,0 +1,7 @@
+interface:
+  display_name: "Prepare Repo for Agents"
+  short_description: "Prepare repository so agents can work effectively"
+  default_prompt: "Use $agentify-repo to prepare this repository so agents can work effectively by creating or updating justified agent-facing docs from repository evidence."
+
+policy:
+  allow_implicit_invocation: true

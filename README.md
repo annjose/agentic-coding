@@ -11,6 +11,8 @@ Templates and real examples of specs that work well with AI agents. Use them as 
 ## What's Inside
 ```
 agentic-coding/
+├── skills/
+│   └── agentify-repo/      # Skill to prepare repos so agents can work effectively
 ├── templates/
 │   ├── new-apps/           # For building from scratch
 │   └── new-features/   # For adding to existing code
@@ -19,9 +21,20 @@ agentic-coding/
         └── pomodoro-timer/    # Real spec + plan
 ```
 
+## Start Here: Agentify a Repo
+
+Use the `agentify-repo` skill first when onboarding a repository for AI coding agents.
+
+- Skill path: `skills/agentify-repo/SKILL.md`
+- Purpose: prepare a repo so agents can work effectively
+- Outcome: repo-specific `AGENTS.md` and supporting docs grounded in real repo evidence
+
+Use this when you need to bootstrap or refresh agent-facing docs before implementation work.
+
 ## Using This Repo
 
-Browse the templates and examples to see what makes a good spec:
+After agentifying a repo, browse the templates and examples to see what makes a good spec:
+
 - Clear objectives and success criteria
 - Specific UI/UX requirements with examples
 - Edge cases and constraints spelled out
