@@ -16,7 +16,8 @@ This repo provides:
 ```
 agentic-coding/
 ├── skills/
-│   └── agentify-repo/      # Skill to prepare repos so agents can work effectively
+│   ├── agentify-repo/       # Skill to prepare repos so agents can work effectively
+│   └── prompt-review/       # Skill to audit prompts against Claude's best practices
 ├── specs/
 │   ├── templates/           # Spec templates
 │   └── examples/            # Example specs
@@ -25,7 +26,9 @@ agentic-coding/
     └── examples/            # Example plans
 ```
 
-## Start Here: Agentify a Repo
+## Skills
+
+### Agentify a Repo
 
 Use the `agentify-repo` skill first when onboarding a repository for AI coding agents.
 
@@ -34,6 +37,16 @@ Use the `agentify-repo` skill first when onboarding a repository for AI coding a
 - Outcome: repo-specific `AGENTS.md` and supporting docs grounded in real repo evidence
 
 Use this when you need to bootstrap or refresh agent-facing docs before implementation work.
+
+### Review a Prompt
+
+Use the `prompt-review` skill to audit and improve your prompts.
+
+- Skill path: `skills/prompt-review/SKILL.md`
+- Purpose: evaluate prompts against Claude's official best practices
+- Evaluates: clarity, context, examples, XML structure, role assignment, format control, and more
+
+Use this when you want to refine a system prompt, specification, or instruction set before using it with Claude.
 
 ## Using This Repo
 
